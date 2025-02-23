@@ -6,7 +6,7 @@ excerpt: "Learn more about me and my work."
 
 # About Me
 
-{% assign data = site.data.data %}
+{% assign data = site.data.miinfo %}
 
 Name: {{ data.name }}
 Age: {{ data.age }}
