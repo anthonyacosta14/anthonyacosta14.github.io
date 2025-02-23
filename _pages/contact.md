@@ -6,4 +6,4 @@ excerpt: "Get in touch with me."
 
 # Contact
 
-Welcome to my Contact page! Feel free to get in touch with me through the form below or via email. [Añade más información de contacto aquí.]
+Bienveinido a mi pagina de contacto aqui tienes algunas cositas sobre mi pero detalladas unicamente respecto al contacto. [Añade más información de contacto aquí.]

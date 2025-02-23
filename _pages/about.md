@@ -6,4 +6,4 @@ excerpt: "Learn more about me and my work."
 
 # About Me
 
-Welcome to my About page! Here you can learn more about me, my background, and my work. [Añade más información aquí.]
+Este es un apartado de la pagina que va sobre mi, veras distintas cosas y distintos datos sobre mi vida y mi familia aunque no imporet nada [Añade más información aquí.]
