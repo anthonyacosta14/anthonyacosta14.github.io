@@ -13,4 +13,4 @@ Address: {{ contact.address }}
 LinkedIn: [{{ contact.linkedin }}]({{ contact.linkedin }})
 Twitter: [{{ contact.twitter }}]({{ contact.twitter }})
 
-Bienveinido a mi pagina de contacto aqui tienes algunas cositas sobre mi pero detalladas unicamente respecto al contacto. [Añade más información de contacto aquí.]
+Bienvenido a mi pégina de contacto aqui tienes algunas cositas sobre mi pero detalladas unicamente respecto al contacto. [Añade más información de contacto aquí.]
