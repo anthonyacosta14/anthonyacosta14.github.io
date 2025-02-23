@@ -13,6 +13,9 @@ navigation:
     url: "/about/"
   - title: "Contact"
     url: "/contact/"
+    
+include:
+  - _pages
 
 # Theme Settings
 #
