@@ -6,7 +6,7 @@ excerpt: "Read my latest blog posts about [tema de tu blog]."
 
 # My Blog
 
-Welcome to my blog! Here I write about [temas de tu blog], sharing insights, tutorials, and thoughts on [temática relevante].
+Bienvenido a mi blog aqui vas a poder ver varios temas en los post de abajo, espero que te interesen.
 
 Check out my latest posts:
 
