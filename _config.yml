@@ -13,7 +13,7 @@ navigation:
     url: "/about/"
   - title: "Contact"
     url: "/contact/"
-    
+
 include:
   - _pages
 
@@ -29,7 +29,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Página de jugadores de futbol"
+title                    : "Página sobre Anthony"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Anthony"
