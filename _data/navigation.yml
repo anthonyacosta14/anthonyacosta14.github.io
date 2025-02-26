@@ -3,9 +3,9 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Sobre mi"
-    url: https://anthonyacosta14.github.io/contact/
-  - title: "Contact"
     url: https://anthonyacosta14.github.io/about/
+  - title: "Contact"
+    url: https://anthonyacosta14.github.io/contact/
   - title: "About"
     url: /year-archive/
   - title: "Blog"
