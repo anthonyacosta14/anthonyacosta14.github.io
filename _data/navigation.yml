@@ -4,11 +4,11 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Sobre mi"
     url: https://anthonyacosta14.github.io/contact/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Contact"
+    url: https://anthonyacosta14.github.io/about/
+  - title: "About"
+    url: /year-archive/
+  - title: "Blog"
+    url: https://anthonyacosta14.github.io/blog/
   # - title: "Sitemap"
   #   url: /sitemap/
