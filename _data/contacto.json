@@ -1,8 +1,22 @@
 {
-    "email": "contacto@tuputamadre.com",
-    "phone": "+34 600 123 456",
-    "address": "Calle Falsa 123, Madrid, España",
-    "linkedin": "https://linkedin.com/in/anthonyacosta",
-    "twitter": "https://twitter.com/anthonyacosta"
-  }
+  "alumnos": [
+      {
+          "nombre": "manuel",
+          "apellido": "extra"
+      
+      },
+      {
+          "nombre": "rodri",
+          "apellido": "cosa"
+         
+      },
+      {
+          "nombre": "Balatro",
+          "apellido": "carvajal"
+
+      }   
+        
+  ]
+}
+
   

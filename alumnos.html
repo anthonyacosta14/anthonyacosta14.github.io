@@ -1,0 +1,13 @@
+---
+layout: home
+title: alumnos lista
+---
+
+<div class="juegos-lista">
+    {% for juego in site.data.contacto.alumnos %}
+        <div class="alumno-item">
+            <h3>{{ contacto.nombre }}</h3>
+            <p> {{ contacto.apellido }}</p>
+        </div>
+    {% endfor %}
+</div>
