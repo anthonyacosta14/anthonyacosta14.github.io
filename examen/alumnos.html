@@ -1,0 +1,11 @@
+---
+layout: default
+title: Lista de Alumnos
+---
+
+<h1>Lista de Alumnos</h1>
+<ul>
+    {% for alumno in site.data.alumnos %}
+        <li>{{ alumno.nombre }} {{ alumno.apellidos }}</li>
+    {% endfor %}
+</ul>
