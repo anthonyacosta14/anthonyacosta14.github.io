@@ -2,10 +2,11 @@
 main:
 
   - title: "1 pagina"
-    url: https://anthonyacosta14.github.io/examen/index.html
+    url: "/examen/index.html"
   - title: "2 pagina"
-    url: https://anthonyacosta14.github.io/examen/alumnos.html
+    url: "/examen/alumnos.html"
   - title: "3 pagina"
-    url: https://anthonyacosta14.github.io/examen/notas.html
+    url: "/examen/notas.html"
+
   # - title: "Sitemap"
   #   url: /sitemap/

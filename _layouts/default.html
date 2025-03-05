@@ -15,10 +15,11 @@
     <nav class="navigation">
       <ul>
         {% for item in site.navigation %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
         {% endfor %}
       </ul>
     </nav>
+    
 
     <div class="initial-content">
       {{ content }}
