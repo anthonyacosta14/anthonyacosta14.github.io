@@ -2,11 +2,11 @@
 main:
 
   - title: "1 pagina"
-    url: "/examen/index.html"
+    url: "/alumnos"
   - title: "2 pagina"
-    url: "/examen/alumnos.html"
+    url: "/index"
   - title: "3 pagina"
-    url: "/examen/notas.html"
+    url: "/notas"
 
   # - title: "Sitemap"
   #   url: /sitemap/
