@@ -7,8 +7,10 @@ title: Parte python
 <header>
     <h1>Página de la parte de python</h1>
     <h2>Medias</h2>
+    <ol>
     {% for alumno in site.data.medias %} 
-            {{ alumno.nombre }} {{ alumno.media }}
+          <li>  {{ alumno.nombre }} {{ alumno.media }}</li>
     {% endfor %}
+    </ol>
  </table>
 </header>
