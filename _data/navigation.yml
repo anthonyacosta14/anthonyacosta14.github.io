@@ -1,12 +1,15 @@
 # main links
 main:
 
-  - title: "1 pagina"
+  - title: "Lista alumnos"
     url: "/alumnoss"
-  - title: "2 pagina"
-    url: "/index"
-  - title: "3 pagina"
-    url: "/notas"
-
+  - title: "Añadir"
+    url: "/añadirr"
+  - title: "actualizar"
+    url: "/actualizarr"
+  - title: "borrar"
+    url: "/borrarr"
+  - title: "parte python"
+    url: "/partee"
   # - title: "Sitemap"
   #   url: /sitemap/
