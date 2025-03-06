@@ -1,0 +1,12 @@
+form input[type="submit"] {
+    background-color: #c5d817;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b8c411;
+    text-align: center;
+}
