@@ -1,13 +1,23 @@
 ---
-layout: home
+layout: default
+permalink: /alumnoss
 title: alumnos lista
 ---
 
-<div class="juegos-lista">
-    {% for juego in site.data.contacto.alumnos %}
-        <div class="alumno-item">
-            <h3>{{ contacto.nombre }}</h3>
-            <p> {{ contacto.apellido }}</p>
-        </div>
+<h2>Lista de Alumnos</h2>
+<table>
+    {% for alumno in site.data.alumnos %} 
+        <tr>         
+         <th>nombre</th>
+         <th>nota1</th> 
+         <th>nota2</th>
+          <th>nota3</th>
+     </tr>
+        <tr>          
+         <td>{{ alumno.nombre }}</td>
+         <td>{{ alumno.nota1 }}</td>
+         <td>{{ alumno.nota2 }}</td>
+         <td>{{ alumno.nota3 }}</td>
+        </tr>
     {% endfor %}
-</div>
+ </table>

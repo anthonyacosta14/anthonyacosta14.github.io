@@ -2,7 +2,7 @@
 main:
 
   - title: "1 pagina"
-    url: "/alumnos"
+    url: "/alumnoss"
   - title: "2 pagina"
     url: "/index"
   - title: "3 pagina"

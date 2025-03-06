@@ -1,5 +1,44 @@
 [
-    { "nombre": "Juan", "apellidos": "Pérez" },
-    { "nombre": "María", "apellidos": "Gómez" },
-    { "nombre": "Luis", "apellidos": "Rodríguez" }
-]
+    {
+     "nombre": "juana",
+     "nota1": "1",
+     "nota2": "6",
+     "nota3": "4"
+    },
+    {
+     "nombre": "pedro",
+     "nota1": "4",
+     "nota2": "8",
+     "nota3": "9"
+    },
+    {
+     "nombre": "luis",
+     "nota1": "6",
+     "nota2": "1",
+     "nota3": "1"
+    },
+    {
+     "nombre": "maria",
+     "nota1": "4",
+     "nota2": "4",
+     "nota3": "6"
+    },
+    {
+     "nombre": "ongombo",
+     "nota1": "6",
+     "nota2": "3",
+     "nota3": "1"
+    },
+    {
+     "nombre": "maria lucia",
+     "nota1": "4",
+     "nota2": "1",
+     "nota3": "2"
+    },
+    {
+     "nombre": "fernando",
+     "nota1": "6",
+     "nota2": "4",
+     "nota3": "6"
+    }
+   ]
