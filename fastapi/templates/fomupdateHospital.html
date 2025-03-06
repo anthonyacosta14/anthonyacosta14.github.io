@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>formulario para añadir hospitales</h1>
+
+<h2>Actualiza un hospital</h2>
+
+<form action="{{ url_for('update_hospital') }}" method="post">
+    <label for="id">Selecciona el hospital a actualizar:</label>
+    <select name="id" required>
+        {% for hospital in hospitales %}
+        <option value="{{ hospital.id }}">{{ hospital.nombre }}</option>
+        {% endfor %}
+    </select>
+    
+
+    <label for="nombre">Nuevo nombre del hospital:</label>
+    <input type="text" name="nombre" placeholder="Nuevo nombre del hospital" required>
+
+    <label for="numero_pacientes">Número de pacientes:</label>
+    <input type="number" name="numero_pacientes" placeholder="Número de pacientes" required>
+
+    <input type="submit" value="Actualizar">
+</form>
+{% if mensaje %}
+{{ mensaje }}
+{% endif %}
+
+{% endblock content %}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body>
+    <header>
+        <h1>Página de hospitales</h1>
+    </header>
+    <main>
+        <section id="hospitales">
+            <h2>Hospitales</h2>
+
+            <!-- Formulario para filtrar hospitales -->
+            <form action="{{ url_for('read_root') }}" method="get">
+                <label for="min_pacientes">Número mínimo de pacientes:</label>
+                <input type="number" name="min_pacientes" placeholder="Ingrese un número" min="0">
+                <input type="submit" value="Filtrar">
+            </form>
+
+            <ol>
+                {% if hospitales %}
+                    {% for hospital in hospitales %} 
+                        <li>{{ hospital.nombre }} - Pacientes: {{ hospital.numero_pacientes }}</li>
+                    {% endfor %}
+                {% else %}
+                    <p>No hay hospitales</p>
+                {% endif %}
+            </ol>
+        </section>
+    </main>
+</body>
+
+{% endblock content %}

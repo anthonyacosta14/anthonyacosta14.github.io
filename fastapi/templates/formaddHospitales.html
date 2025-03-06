@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>formulario para añadir hospitales</h1>
+
+<h2>Añade tu mismo hospitales</h2>
+<form action="{{ url_for('add_hospital') }}" method="post">
+    <input type="text" name="nombre" placeholder="Nombre del hospital" autocomplete="off" required>
+    <input type="number" name="numero_pacientes" placeholder="Número de pacientes" min="0" required>
+    <input type="submit" value="Añadir">
+</form>
+{% if mensaje %}
+<p> {{ mensaje }}</p>
+{% endif %}
+
+
+{% endblock content %}
+
+
+
+
+
+
+   
+
